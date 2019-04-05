@@ -37,7 +37,7 @@ export const getBaseUrl = httpRequestOrResponseObj => {
       }://${httpRequestOrResponseObj.get("host")}/api/v1`;
 
     case "production":
-      return "https://inception-ah-frontend.herokuapp.com";
+      return "https://incept-ah-frontend.herokuapp.com";
     default:
       break;
   }
